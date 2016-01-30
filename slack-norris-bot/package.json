@@ -1,0 +1,40 @@
+{
+  "name": "slack-norris-bot",
+  "version": "1.0.0",
+  "description": "a Slack bot that kicks asses (roundhouse-kicks to be accurate...)",
+  "main": "lib/norrisbot.js",
+  "bin": {
+    "norrisbot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js lib/norrisbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmz527/scotch_time/tree/master/slack-norris-bot"
+  },
+  "author": "James Rutledge <jarutledge2@gmail.com>",
+  "license": "ISC",
+"dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.0.10"
+  },
+  "devDependencies": {
+    "xo": "^0.5.2"
+  },
+  "xo": {
+    "space": 4,
+    "rules": {
+      "camelcase": [
+        2,
+        {
+          "properties": "never"
+        }
+      ]
+    }
+  }
+}
