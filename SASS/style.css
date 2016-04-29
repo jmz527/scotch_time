@@ -1,0 +1,42 @@
+body {
+  background: #ccc;
+  font-size: 62.5%; }
+
+.container {
+  background: #ddff99;
+  width: 50%; }
+  .container h1 {
+    color: purple; }
+
+.col-4 {
+  width: 12.5%; }
+
+p {
+  color: #222;
+  font-size: 20px; }
+
+h1 {
+  color: teal;
+  background-color: #ccc; }
+  h1:hover {
+    text-decoration: underline; }
+
+input {
+  color: green; }
+
+input {
+  color: blue; }
+
+.input, .error-input {
+  border-radius: 3px;
+  border: 4px solid #ddd;
+  color: #555;
+  font-size: 17px;
+  padding: 10px 20px;
+  display: inline-block;
+  outline: 0; }
+
+.error-input {
+  border: 4px solid #e74c3c; }
+
+/*# sourceMappingURL=style.css.map */
