@@ -9,7 +9,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 class AppComponent extends Component {
 
   componentWillMount() {
-    this.lock = new Auth0Lock('hkjtu9PEUDCQ3pfewqXB7pVxiy8nmI7s', 'jmz527.auth0.com');
+    this.lock = new Auth0Lock('YOUR_AUTH0_CLIENT_ID', 'YOUR_AUTH0_DOMAIN');
   }
 
   render() {
